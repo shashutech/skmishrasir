@@ -4402,7 +4402,10 @@ Background Image
   background-image: url(../images/bg/bg-image-3.jpg); }
 
 .bg_image--4 {
-  background-image: url(../images/bg/bg-image-4.jpg); }
+  /* background-image: url(../images/bg/bg-image-4.jpg); } */
+  background-image: url(../images/bg-2.jpg);
+  background-color: #fff !important;
+}
 
 .bg_image--5 {
   background-image: url(../images/bg/bg-image-5.jpg); }
@@ -4861,7 +4864,7 @@ textarea:-ms-input-placeholder {
   background: var(--color-primary); }
 
 [data-black-overlay]:before {
-  background-color: #130d0d; }
+  background-color: #fff; }
 
 [data-white-overlay]:before {
   background-color: #ffffff; }
@@ -9965,6 +9968,7 @@ figcaption {
 .fd-lorem {
   font-size: 16px !important;
   letter-spacing: 4px;
+  width: 75%;
   color: var(--color-lighten) !important;
   margin-top: 35px !important; }
 
@@ -9995,8 +9999,8 @@ figcaption {
       letter-spacing: 2px !important; } }
 
 .fashion-designer-inner h1.title {
-  font-size: 120px !important;
-  line-height: 120px !important;
+  font-size: 80px !important;
+  line-height: 80px !important;
   color: #b79685 !important; }
   @media only screen and (max-width: 767px) {
     .fashion-designer-inner h1.title {
